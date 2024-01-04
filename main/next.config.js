@@ -7,9 +7,9 @@ module.exports = {
     const { isServer } = options;
     config.plugins.push(
       new NextFederationPlugin({
-        name: "next2",
+        name: "parento",
         remotes: {
-          next1: `next1@http://localhost:3001/_next/static/${
+          childo: `childo@http://localhost:3001/_next/static/${
             isServer ? "ssr" : "chunks"
           }/remoteEntry.js`,
         },

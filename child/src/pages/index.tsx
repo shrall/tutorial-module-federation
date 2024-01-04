@@ -1,4 +1,4 @@
-import { Button } from "next2/Button";
+import { Button } from "parento/Button";
 
 export default function Home() {
   return (
